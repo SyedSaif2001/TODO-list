@@ -1,0 +1,72 @@
+body{
+    background-color: darkgray;
+}
+.to-do-list{
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.add-button{
+    background-color: green;
+}
+.add-button:hover{
+    background-color: greenyellow;
+}
+.delete-button{
+    background-color: red;
+}
+.delete-button:hover{
+    background-color: chocolate;
+}
+.up-button{
+    background-color: blue;
+}
+.up-button:hover{
+    background-color: blueviolet;
+}
+.down-button{
+    background-color: blue;
+}
+.down-button:hover{
+    background-color: blueviolet;
+}
+input[type="text"]{
+    font-size: 1.4rem;
+    padding: 12px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    color: grey;
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.delete-button, .up-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
